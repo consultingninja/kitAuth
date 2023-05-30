@@ -1,30 +1,19 @@
 <script>
-
     export let form;
-    
-
-    </script>
+</script>
     
     
     <div class="sign-in-wrapper">
         <div class="sign-in-content">
-    
-    
-    <h2>Sign Up to Consulting Ninja</h2>
-    
-
-
+        <h2>Sign Up to Consulting Ninja</h2>
      <form class="auth-form" method="post" action="?/OAuth2">
         <div>
-            <p>Or</p>
             <button class="btn-auth"  type="submit">
             <img class="btn-auth-img" src='/google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png' alt='google sign in'/>
             </button>
-
         </div>
 
     </form> 
-
 
     </div>
     </div>
@@ -71,9 +60,6 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-        }
-        .auth-form p{
-            margin:0;
         }
         .sign-in-wrapper{
             display: flex;
