@@ -1,5 +1,5 @@
 <h1>Welcome to Consulting Ninja!</h1>
-<h3>Pocketbase OAuth2 With Google!</h3>
+<h3>OAuth2 With Google!</h3>
 <p>Visit <a href="https://www.youtube.com/@ConsultingNinja/featured"><strong>@ConsultingNinja</strong></a> to see more great videos!</p>
 
 

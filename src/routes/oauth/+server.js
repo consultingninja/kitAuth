@@ -2,7 +2,7 @@ import { redirect } from '@sveltejs/kit';
 import { OAuth2Client } from 'google-auth-library';
 
 
-import {SECRET_KEY,SECRET_CLIENT} from '$env/static/private';
+import {SECRET_CLIENT_ID,SECRET_CLIENT_SECRET} from '$env/static/private';
 
 
 export const GET = async ({ url}) => {
@@ -14,8 +14,8 @@ export const GET = async ({ url}) => {
 
     try {
         const oAuth2Client = new OAuth2Client(
-            SECRET_CLIENT,
-            SECRET_KEY,
+          SECRET_CLIENT_ID,
+          SECRET_CLIENT_SECRET,
             redirectURL
           );
         const r = await oAuth2Client.getToken(code);
